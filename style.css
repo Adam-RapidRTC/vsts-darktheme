@@ -524,11 +524,6 @@ button.popup-menu-trigger:focus {
     color: #ececec ;
 }
 
-table..header-td, table..header-td tbody > tr > td, #1>table.header-table.l2, #1>table.header-table.l2 tbody > tr > td {
-    background-color: #2e2e2e ;
-    color: #ececec ;
-}
-
 .vsts-header .hub-bar {
     background-color: #2e2e2e ;
     color: #ececec ;
@@ -561,7 +556,7 @@ table..header-td, table..header-td tbody > tr > td, #1>table.header-table.l2, 
     background-color: #2e2e2e ;
 }
 
-#1>table.header-table.l1 #searchbox {
+#searchbox {
     background-color: #106ebe ;
     color: #ececec ;
 }
@@ -1957,5 +1952,9 @@ li.selected a {
 
 div.row-group {
     color: #bababa;
+}
+
+.ms-Callout-main {
+    background-color: white ;
 }
 
