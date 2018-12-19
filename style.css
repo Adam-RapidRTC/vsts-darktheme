@@ -1972,3 +1972,7 @@ button[disabled]:not(.ms-ContextualMenu-link):not(.ms-Checkbox), button[disabled
     padding-left: 6px;
 }
 
+div.repo-name {
+    color: #d1d1d1;
+}
+
