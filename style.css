@@ -1958,3 +1958,17 @@ div.row-group {
     background-color: white ;
 }
 
+button[disabled]:not(.ms-ContextualMenu-link):not(.ms-Checkbox), button[disabled]:hover:not(.ms-ContextualMenu-link):not(.ms-Checkbox), button[disabled]:focus:not(.ms-ContextualMenu-link):not(.ms-Checkbox), .copy-button {
+    background-color: #808080 ;
+}
+
+.save-button {
+    display: inline-block;
+    padding: 2px ;
+}
+
+.undo-button {
+    padding: 2px;
+    padding-left: 6px;
+}
+
