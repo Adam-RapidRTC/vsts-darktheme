@@ -7,4 +7,4 @@ This project, if that's what we are calling it, spawned out of my hatred for swi
 ## Installation
 This theme is installed by using a browser extension of your choice. For Chrome you can use [Stylebot](https://chrome.google.com/webstore/detail/stylebot/oiaejidbmkiecgbjeifoejpgmdaleoha?hl=en) or [Stylish](https://chrome.google.com/webstore/detail/stylish-custom-themes-for/fjnbnpbmkenffdnngjfgmeleoegfcffe?hl=en) for Firefox you can use  [Stylish](https://addons.mozilla.org/en-US/firefox/addon/stylish/) or [Grease Monkey](https://www.greasespot.net/) and for IE you can you use Chrome or Firefox.
 
-After you have your desired plugin installed simple copy and paste from style.css into the plug in and you are set
+After you have your desired plugin installed simply copy and paste from style.css into the plug in and you are set
