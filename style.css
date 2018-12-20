@@ -2035,3 +2035,7 @@ span.stat-text {
     color: #b3b3b3;
 }
 
+span.bowtie-icon.bowtie-status-success.vote-overlay {
+    color: #0c8214;
+}
+
