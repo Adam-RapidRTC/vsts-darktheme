@@ -198,6 +198,11 @@
     color: #ececec ;
 }
 
+.commitId-text, .bowtie-icon, .vc-history-detailsList.ms-DetailsList .ms-List-cell :hover, .vc-history-detailsList.ms-DetailsList .ms-List-cell :hover, div[role="grid"] .ms-List-cell .ms-DetailsRow-cell:hover {
+    background-color: transparent ;
+    color: #b3b3b3;
+}
+
 .content-section {
     background-color: #1e1e1e ;
     color: #ececec ;
@@ -209,6 +214,10 @@
 
 .control .wrap {
     border: 1px solid #aaa;
+}
+
+.copy-button {
+    background-color: transparent ;
 }
 
 .dashboard-landing .hub-content, .ui-dialog > * {
@@ -223,6 +232,10 @@
 
 .diff-line-count-container.file-lines-deleted {
     background-color: rgba(255, 0, 0, 0.3) ;
+}
+
+.diff-selector-item {
+    color: #b3b3b3;
 }
 
 .discussion-messages-messagecontent {
@@ -329,6 +342,10 @@
 
 .filters a {
     color: #2196F3;
+}
+
+.flyout.enabled .flyout-header:hover {
+    background-color: #2e2e2e;
 }
 
 .form-grid .tfs-collapsible-header {
@@ -570,6 +587,10 @@
     background-color: #292929 ;
 }
 
+.menu-item.hover {
+    background-color: #1e1e1e ;
+}
+
 .message-area-control.info-message {
     background-color: #002d50 ;
     border-color: #002d50 ;
@@ -619,6 +640,10 @@
 
 .ms-Callout .ms-ContextualMenu-item button:hover {
     background-color: #292929 ;
+}
+
+.ms-Callout-beakCurtain {
+    background: #71afe5 ;
 }
 
 .ms-Callout-main {
@@ -672,6 +697,12 @@
 
 .ms-List-cell:hover {
     background-color: #1e1e1e ;
+}
+
+.ms-Tooltip-subText {
+    background-color: #212121;
+    color: #b3b3b3;
+    padding: 7px;
 }
 
 .mtk1 {
@@ -832,6 +863,10 @@
     background-color: #1e1e1e ;
     border-color: #1e1e1e ;
     color: #ececec ;
+}
+
+.right-group {
+    color: #bababa;
 }
 
 .right-history-panel .content-section {
@@ -1836,22 +1871,6 @@ button[disabled]:not(.ms-ContextualMenu-link):not(.ms-Checkbox), button[disabled
 
 /**************************************************/
 
-/************ SPLITTER LEFT HAND PANEL ***********/
-
-/**************************************************/
-
-/******* PROJECT OVERVIEW PAGE RIGHT PANE ********/
-
-/**************************************************/
-
-/********************* CALLOUTS ******************/
-
-/*******************************************************/
-
-/********************* DETAILS LIST *******************/
-
-/*******************************************************/
-
 /********* Referenced pull request numbers ************/
 
 /**************************************************/
@@ -1871,6 +1890,8 @@ button[disabled]:not(.ms-ContextualMenu-link):not(.ms-Checkbox), button[disabled
 /**************************************/
 
 /*** PR top administration section ***/
+
+/************ SPLITTER LEFT HAND PANEL ***********/
 
 /**************************************/
 
@@ -1894,17 +1915,39 @@ button[disabled]:not(.ms-ContextualMenu-link):not(.ms-Checkbox), button[disabled
 
 /**************************************************/
 
+/**************************************************/
+
 /************ BUTTONS ***********/
 
 /**************************************************/
+
+/******* PROJECT OVERVIEW PAGE RIGHT PANE ********/
+
+/**************************************************/
+
+/********************* CALLOUTS ******************/
+
+/*******************************************************/
+
+/********************* DETAILS LIST *******************/
+
+/*******************************************************/
 
 div#header-row {
     background-color: #2196F3;
 }
 
+div.badge-text-style {
+    color: #cfc9cf;
+}
+
 div.cd-environment-canvas-title {
     background-color: #474747;
     color: #c4c0c4;
+}
+
+div.ms-Toggle-thumb.css-edx9rl {
+    background-color: #919191;
 }
 
 div.repo-name {
@@ -1947,6 +1990,22 @@ li.tree-drag-tile.bowtie-tree > a > div.node-content {
     color: #ececec ;
 }
 
+span.bowtie-icon.bowtie-status-success.vote-overlay {
+    color: #0c8214;
+}
+
+span.bowtie-icon.bowtie-tfvc-branch {
+    color: #e3e3e3;
+}
+
+span.stat-text {
+    color: #dedede;
+}
+
+span.text {
+    color: #fafafa;
+}
+
 ul.menu-popup {
     border-color: #2e2e2e ;
 }
@@ -1980,62 +2039,12 @@ vss-PickList--multiSelectTextContainer {
     color: #ffffff;
 }
 
-span.text {
-    color: #fafafa;
+.mention-autocomplete-item.ui-menu-item {
+    background-color: #252525 ;
+    color: white ;
 }
 
-div.ms-Toggle-thumb.css-edx9rl {
-    background-color: #919191;
-}
-
-div.badge-text-style {
-    color: #cfc9cf;
-}
-
-span.bowtie-icon.bowtie-tfvc-branch {
-    color: #e3e3e3;
-}
-
-span.stat-text {
-    color: #dedede;
-}
-
-.flyout.enabled .flyout-header:hover {
-    background-color: #2e2e2e;
-}
-
-.ms-Tooltip-subText {
-    background-color: #212121;
-    color: #b3b3b3;
-    padding: 7px;
-}
-
-.ms-Callout-beakCurtain {
-    background: #71afe5 ;
-}
-
-.copy-button {
-    background-color: transparent ;
-}
-
-.menu-item.hover {
-    background-color: #1e1e1e ;
-}
-
-.diff-selector-item {
-    color: #b3b3b3;
-}
-
-.right-group {
-    color: #bababa;
-}
-
-.commitId-text, .bowtie-icon, .vc-history-detailsList.ms-DetailsList .ms-List-cell :hover, .vc-history-detailsList.ms-DetailsList .ms-List-cell :hover, div[role="grid"] .ms-List-cell .ms-DetailsRow-cell:hover {
-    background-color: transparent ;
-    color: #b3b3b3;
-}
-
-span.bowtie-icon.bowtie-status-success.vote-overlay {
-    color: #0c8214;
+.mention-autocomplete-item.ui-menu-item a {
+    color: #ececec;
 }
 
