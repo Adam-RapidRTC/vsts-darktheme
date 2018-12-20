@@ -610,7 +610,7 @@
 }
 
 .ms-Callout {
-    border-color: rgba(82, 82, 82, 0.31) ;
+    padding: 1px ;
 }
 
 .ms-Callout .ms-ContextualMenu-divider {
@@ -1986,5 +1986,31 @@ span.text {
 
 div.ms-Toggle-thumb.css-edx9rl {
     background-color: #919191;
+}
+
+div.badge-text-style {
+    color: #cfc9cf;
+}
+
+span.bowtie-icon.bowtie-tfvc-branch {
+    color: #e3e3e3;
+}
+
+span.stat-text {
+    color: #dedede;
+}
+
+.flyout.enabled .flyout-header:hover {
+    background-color: #2e2e2e;
+}
+
+.ms-Tooltip-subText {
+    background-color: #212121;
+    color: #b3b3b3;
+    padding: 7px;
+}
+
+.ms-Callout-beakCurtain {
+    background: #71afe5 ;
 }
 
