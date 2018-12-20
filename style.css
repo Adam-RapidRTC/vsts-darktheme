@@ -2018,3 +2018,6 @@ span.stat-text {
     background-color: transparent ;
 }
 
+.menu-item.hover{
+    background-color: #1e1e1e !important;
+}
