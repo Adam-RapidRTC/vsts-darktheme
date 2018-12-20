@@ -2030,7 +2030,8 @@ span.stat-text {
     color: #bababa;
 }
 
-.commitId-text, .bowtie-icon, .vc-history-detailsList.ms-DetailsList .ms-List-cell :hover, .vc-history-detailsList.ms-DetailsList .ms-List-cell :hover {
-    background-color: transparent !important;
+.commitId-text, .bowtie-icon, .vc-history-detailsList.ms-DetailsList .ms-List-cell :hover, .vc-history-detailsList.ms-DetailsList .ms-List-cell :hover, div[role="grid"] .ms-List-cell .ms-DetailsRow-cell:hover {
+    background-color: transparent ;
     color: #b3b3b3;
 }
+
