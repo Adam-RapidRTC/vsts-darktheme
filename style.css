@@ -557,6 +557,15 @@
     color: #ececec ;
 }
 
+.mention-autocomplete-item.ui-menu-item {
+    background-color: #252525 ;
+    color: white ;
+}
+
+.mention-autocomplete-item.ui-menu-item a {
+    color: #ececec;
+}
+
 .mention-autocomplete-menu, .mention-autocomplete-menu li.ui-state-focus {
     background-color: #1e1e1e ;
     border-color: #1e1e1e ;
@@ -1871,22 +1880,6 @@ button[disabled]:not(.ms-ContextualMenu-link):not(.ms-Checkbox), button[disabled
 
 /**************************************************/
 
-/********* Referenced pull request numbers ************/
-
-/**************************************************/
-
-/*************** POP UP MENUS ********************/
-
-/********************* VARIOUS *******************/
-
-/**************************************************/
-
-/*************** Work Item Detail ****************/
-
-/****** TASK BOARD ********/
-
-/****** PBI BOARD ********/
-
 /**************************************/
 
 /*** PR top administration section ***/
@@ -1906,6 +1899,8 @@ button[disabled]:not(.ms-ContextualMenu-link):not(.ms-Checkbox), button[disabled
 /****************************************/
 
 /******** LEFT HAND FILES LIST *********/
+
+/********* Referenced pull request numbers ************/
 
 /*************** POP UP TOOLBAR MENUS ********************/
 
@@ -1927,11 +1922,25 @@ button[disabled]:not(.ms-ContextualMenu-link):not(.ms-Checkbox), button[disabled
 
 /********************* CALLOUTS ******************/
 
+/**************************************************/
+
 /*******************************************************/
 
 /********************* DETAILS LIST *******************/
 
 /*******************************************************/
+
+/*************** POP UP MENUS ********************/
+
+/********************* VARIOUS *******************/
+
+/**************************************************/
+
+/*************** Work Item Detail ****************/
+
+/****** TASK BOARD ********/
+
+/****** PBI BOARD ********/
 
 div#header-row {
     background-color: #2196F3;
@@ -2039,12 +2048,6 @@ vss-PickList--multiSelectTextContainer {
     color: #ffffff;
 }
 
-.mention-autocomplete-item.ui-menu-item {
-    background-color: #252525 ;
-    color: white ;
+#searchbox{ 
+    background-color: #1e1e1e !important;
 }
-
-.mention-autocomplete-item.ui-menu-item a {
-    color: #ececec;
-}
-
