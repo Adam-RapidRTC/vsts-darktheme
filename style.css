@@ -16,8 +16,7 @@
 }
 
 #searchbox {
-    background-color: #106ebe ;
-    color: #ececec ;
+    background-color: #1e1e1e ;
 }
 
 .add-panel {
@@ -1880,22 +1879,6 @@ button[disabled]:not(.ms-ContextualMenu-link):not(.ms-Checkbox), button[disabled
 
 /**************************************************/
 
-/**************************************/
-
-/*** PR top administration section ***/
-
-/************ SPLITTER LEFT HAND PANEL ***********/
-
-/**************************************/
-
-/******** FILE SPECIFIC VIEW *********/
-
-/**************************************/
-
-/**************************************************/
-
-/************ DIFFS ******************/
-
 /****************************************/
 
 /******** LEFT HAND FILES LIST *********/
@@ -1915,6 +1898,8 @@ button[disabled]:not(.ms-ContextualMenu-link):not(.ms-Checkbox), button[disabled
 /************ BUTTONS ***********/
 
 /**************************************************/
+
+/**************************************/
 
 /******* PROJECT OVERVIEW PAGE RIGHT PANE ********/
 
@@ -1936,11 +1921,25 @@ button[disabled]:not(.ms-ContextualMenu-link):not(.ms-Checkbox), button[disabled
 
 /**************************************************/
 
+/*** PR top administration section ***/
+
 /*************** Work Item Detail ****************/
 
 /****** TASK BOARD ********/
 
 /****** PBI BOARD ********/
+
+/************ SPLITTER LEFT HAND PANEL ***********/
+
+/**************************************/
+
+/******** FILE SPECIFIC VIEW *********/
+
+/**************************************/
+
+/**************************************************/
+
+/************ DIFFS ******************/
 
 div#header-row {
     background-color: #2196F3;
@@ -2048,6 +2047,7 @@ vss-PickList--multiSelectTextContainer {
     color: #ffffff;
 }
 
-#searchbox{ 
-    background-color: #1e1e1e !important;
+.status-badge-icon .status-state.pending {
+    color: white;
 }
+
