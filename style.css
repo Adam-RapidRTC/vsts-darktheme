@@ -934,6 +934,10 @@
     background-color: #2e2e2e ;
 }
 
+.status-badge-icon .status-state.pending {
+    color: white;
+}
+
 .tag-container {
     border: 1px solid #2e2e2e;
 }
@@ -1879,22 +1883,6 @@ button[disabled]:not(.ms-ContextualMenu-link):not(.ms-Checkbox), button[disabled
 
 /**************************************************/
 
-/****************************************/
-
-/******** LEFT HAND FILES LIST *********/
-
-/********* Referenced pull request numbers ************/
-
-/*************** POP UP TOOLBAR MENUS ********************/
-
-/**************************************************/
-
-/************ IDENTITY PICKER DROPDOWN ***********/
-
-/**************************************************/
-
-/**************************************************/
-
 /************ BUTTONS ***********/
 
 /**************************************************/
@@ -1914,6 +1902,8 @@ button[disabled]:not(.ms-ContextualMenu-link):not(.ms-Checkbox), button[disabled
 /********************* DETAILS LIST *******************/
 
 /*******************************************************/
+
+/****************************************/
 
 /*************** POP UP MENUS ********************/
 
@@ -1935,11 +1925,25 @@ button[disabled]:not(.ms-ContextualMenu-link):not(.ms-Checkbox), button[disabled
 
 /******** FILE SPECIFIC VIEW *********/
 
+/******** LEFT HAND FILES LIST *********/
+
 /**************************************/
 
 /**************************************************/
 
 /************ DIFFS ******************/
+
+/********* Referenced pull request numbers ************/
+
+/*************** POP UP TOOLBAR MENUS ********************/
+
+/**************************************************/
+
+/************ IDENTITY PICKER DROPDOWN ***********/
+
+/**************************************************/
+
+/**************************************************/
 
 div#header-row {
     background-color: #2196F3;
@@ -2047,7 +2051,6 @@ vss-PickList--multiSelectTextContainer {
     color: #ffffff;
 }
 
-.status-badge-icon .status-state.pending {
+.vc-preview-content-container .rendered-markdown h3 {
     color: white;
 }
-
