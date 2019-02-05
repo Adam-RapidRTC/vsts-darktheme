@@ -634,7 +634,6 @@
 }
 
 .ms-Breadcrumb-itemLink {
-    background-color: #262626;
     color: #ffffff;
 }
 
@@ -1953,8 +1952,8 @@ div.badge-text-style {
     color: #cfc9cf;
 }
 
-div.cd-environment-canvas-title {
-    background-color: #474747;
+div.cd-environment-canvas-title,
+.cd-artifacts-canvas-title {
     color: #c4c0c4;
 }
 
@@ -2053,4 +2052,32 @@ vss-PickList--multiSelectTextContainer {
 
 .vc-preview-content-container .rendered-markdown h3 {
     color: white;
+}
+
+.ms-Panel-main {
+	background-color: #292929 !important;
+}
+
+.dtc-templates-title, 
+.dtc-section-label,
+.info-name {
+    color: white;
+}
+
+.dtc-template-item.is-selected,
+.dtc-template-item:hover {
+	background-color: #b3b3b3;
+    color: #ffffff;
+}
+
+.ms-List-item[role="listitem"]{
+	color: white;
+}
+
+.cd-environment-core-properties-container .dtc-canvas-element-border,
+div.dtc-overlay-selected .dtc-canvas-element-border,
+div.dtc-overlay-selected .dtc-canvas-element-border,
+.bowtie-trigger-approval::before {
+	background-color: #b3b3b3;
+    color: #292929;
 }
