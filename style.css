@@ -2078,8 +2078,8 @@ vss-PickList--multiSelectTextContainer {
 div.dtc-overlay-selected .dtc-canvas-element-border,
 div.dtc-overlay-selected .dtc-canvas-element-border,
 .bowtie-trigger-approval::before {
-	background-color: #b3b3b3;
-    color: #292929;
+	background-color: #b3b3b3 !important;
+    color: #292929 !important;
 }
 
 .combo-box-container-parent .combo-box-container .combo-drop-popup ul.items .combo-box-item {
@@ -2130,7 +2130,11 @@ div.two-panel-overview {
 .description-container,
 .name-container,
 .content-container,
-.environment-name-label {
+.environment-name-label,
+.history-name-column,
+.ms-DetailsRow-cell,
+.ms-MessageBar-innerText,
+.innerText_a99edd3d {
     color: #828282;
 }
 
@@ -2138,7 +2142,10 @@ div.two-panel-overview {
 div.dtc-overlay-selected .dtc-canvas-element-border, 
 div.dtc-overlay-selected .dtc-canvas-element-border, 
 .cd-artifact-properties-container .dtc-canvas-element-border,
-.vss-PickListDropdown--title {
+.vss-PickListDropdown--title,
+input:not(.search-text),
+.is-selected.isSelected_fd76c43f.rootIsSelected_c8730de5,
+.root_a99edd3d {
 	background-color: #292929;
 }
 
@@ -2152,4 +2159,9 @@ div[role="menubar"] {
 
 i.ms-Icon {
     color: white;
+}
+
+.bowtie-trigger-approval::before {
+	color: #b3b3b3 !important;
+	background-color: transparent !important;
 }
