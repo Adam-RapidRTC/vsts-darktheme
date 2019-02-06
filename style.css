@@ -1868,81 +1868,20 @@ button.popup-menu-trigger:focus {
     background-color: #2e2e2e ;
 }
 
-button[disabled]:not(.ms-ContextualMenu-link):not(.ms-Checkbox), button[disabled]:hover:not(.ms-ContextualMenu-link):not(.ms-Checkbox), button[disabled]:focus:not(.ms-ContextualMenu-link):not(.ms-Checkbox) {
+button[disabled]:not(.ms-ContextualMenu-link):not(.ms-Checkbox), 
+button[disabled]:hover:not(.ms-ContextualMenu-link):not(.ms-Checkbox), 
+button[disabled]:focus:not(.ms-ContextualMenu-link):not(.ms-Checkbox) {
     background-color: gray ;
     border-color: gray ;
     color: "disabled text" ;
 }
 
-button[disabled]:not(.ms-ContextualMenu-link):not(.ms-Checkbox), button[disabled]:hover:not(.ms-ContextualMenu-link):not(.ms-Checkbox), button[disabled]:focus:not(.ms-ContextualMenu-link):not(.ms-Checkbox), .copy-button {
+button[disabled]:not(.ms-ContextualMenu-link):not(.ms-Checkbox), 
+button[disabled]:hover:not(.ms-ContextualMenu-link):not(.ms-Checkbox), 
+button[disabled]:focus:not(.ms-ContextualMenu-link):not(.ms-Checkbox), 
+.copy-button {
     background-color: #808080 ;
 }
-
-/*********************************************************************/
-
-/**************************************************/
-
-/************ BUTTONS ***********/
-
-/**************************************************/
-
-/**************************************/
-
-/******* PROJECT OVERVIEW PAGE RIGHT PANE ********/
-
-/**************************************************/
-
-/********************* CALLOUTS ******************/
-
-/**************************************************/
-
-/*******************************************************/
-
-/********************* DETAILS LIST *******************/
-
-/*******************************************************/
-
-/****************************************/
-
-/*************** POP UP MENUS ********************/
-
-/********************* VARIOUS *******************/
-
-/**************************************************/
-
-/*** PR top administration section ***/
-
-/*************** Work Item Detail ****************/
-
-/****** TASK BOARD ********/
-
-/****** PBI BOARD ********/
-
-/************ SPLITTER LEFT HAND PANEL ***********/
-
-/**************************************/
-
-/******** FILE SPECIFIC VIEW *********/
-
-/******** LEFT HAND FILES LIST *********/
-
-/**************************************/
-
-/**************************************************/
-
-/************ DIFFS ******************/
-
-/********* Referenced pull request numbers ************/
-
-/*************** POP UP TOOLBAR MENUS ********************/
-
-/**************************************************/
-
-/************ IDENTITY PICKER DROPDOWN ***********/
-
-/**************************************************/
-
-/**************************************************/
 
 div#header-row {
     background-color: #2196F3;
@@ -2164,4 +2103,8 @@ i.ms-Icon {
 .bowtie-trigger-approval::before {
 	color: #b3b3b3 !important;
 	background-color: transparent !important;
+}
+
+.machine-groups-metrics-column {
+    color: #828282 !important;
 }
