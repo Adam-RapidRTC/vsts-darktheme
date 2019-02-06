@@ -1952,7 +1952,8 @@ div.badge-text-style {
     color: #cfc9cf;
 }
 
-div.cd-environment-canvas-title, .cd-artifacts-canvas-title {
+div.cd-environment-canvas-title,
+.cd-artifacts-canvas-title {
     color: #c4c0c4;
 }
 
@@ -1969,8 +1970,8 @@ div.row-group {
 }
 
 div.two-panel-overview {
-    background-color: #292929 ;
-    color: white ;
+    background-color: #525252;
+    color: #d6d6d6;
 }
 
 div.vc-pullrequest-leftpane-section-subhead.with-margin {
@@ -2054,34 +2055,45 @@ vss-PickList--multiSelectTextContainer {
 }
 
 .ms-Panel-main {
-    background-color: #292929 ;
+	background-color: #292929 !important;
 }
 
-.dtc-templates-title, .dtc-section-label, .info-name {
+.dtc-templates-title, 
+.dtc-section-label,
+.info-name {
     color: white;
 }
 
-.dtc-template-item.is-selected, .dtc-template-item:hover {
-    background-color: #b3b3b3;
+.dtc-template-item.is-selected,
+.dtc-template-item:hover {
+	background-color: #b3b3b3;
     color: #ffffff;
 }
 
-.ms-List-item[role="listitem"] {
-    color: white;
+.ms-List-item[role="listitem"]{
+	color: white;
 }
 
-.cd-environment-core-properties-container .dtc-canvas-element-border, div.dtc-overlay-selected .dtc-canvas-element-border, div.dtc-overlay-selected .dtc-canvas-element-border, .bowtie-trigger-approval::before {
-    background-color: #b3b3b3;
+.cd-environment-core-properties-container .dtc-canvas-element-border,
+div.dtc-overlay-selected .dtc-canvas-element-border,
+div.dtc-overlay-selected .dtc-canvas-element-border,
+.bowtie-trigger-approval::before {
+	background-color: #b3b3b3;
     color: #292929;
 }
 
 .combo-box-container-parent .combo-box-container .combo-drop-popup ul.items .combo-box-item {
-    background-color: #292929 ;
-    color: white ;
+	background-color: #292929 !important;
+    color: white !important;
 }
 
 .input-control-checkbox {
-    background-color: transparent ;
+    background-color: transparent !important;
+}
+
+div.two-panel-overview {
+    background-color: #292929 !important;
+    color: white !important;
 }
 
 .ms-TagItem {
@@ -2089,11 +2101,55 @@ vss-PickList--multiSelectTextContainer {
     color: white;
 }
 
-.ms-TooltipHost, .matching-targets {
+.ms-TooltipHost,
+.matching-targets {
     color: #828282;
 }
 
-.dtc-markdown-renderer, .field_230192cb:focus .ms-Label, .field_230192cb:hover .ms-Label, .css-jupphs:hover .ms-Checkbox-text, [data-css-jupphs]:hover .ms-Checkbox-text, .ms-Checkbox-text {
-    color: #828282 ;
+.dtc-markdown-renderer,
+.field_230192cb:focus .ms-Label, 
+.field_230192cb:hover .ms-Label,
+.css-jupphs:hover .ms-Checkbox-text, 
+[data-css-jupphs]:hover .ms-Checkbox-text,
+.ms-Checkbox-text {
+    color: #828282 !important;
 }
 
+.ms-ChoiceField.choiceField_230192cb.ms-ChoiceField--image.choiceFieldIsImage_230192cb {
+    background-color: #292929;
+}
+
+.choiceFieldIsIcon_230192cb .fieldIsIcon_230192cb:not(.fieldIsDisabled_230192cb).fieldIsChecked_230192cb, 
+.choiceFieldIsIcon_230192cb .fieldIsImage_230192cb:not(.fieldIsDisabled_230192cb).fieldIsChecked_230192cb, 
+.choiceFieldIsImage_230192cb .fieldIsIcon_230192cb:not(.fieldIsDisabled_230192cb).fieldIsChecked_230192cb, 
+.choiceFieldIsImage_230192cb .fieldIsImage_230192cb:not(.fieldIsDisabled_230192cb).fieldIsChecked_230192cb {
+    border-color: white;
+}
+
+.environment-schedule-container .schedule-label,
+.description-container,
+.name-container,
+.content-container,
+.environment-name-label {
+    color: #828282;
+}
+
+.cd-environment-core-properties-container .dtc-canvas-element-border, 
+div.dtc-overlay-selected .dtc-canvas-element-border, 
+div.dtc-overlay-selected .dtc-canvas-element-border, 
+.cd-artifact-properties-container .dtc-canvas-element-border,
+.vss-PickListDropdown--title {
+	background-color: #292929;
+}
+
+div[role="menubar"] {
+    background-color: #1e1e1e;
+}
+
+.ms-CommandBarItem-link {
+    border-left: 1px solid #828282 !important;
+}
+
+i.ms-Icon {
+    color: white;
+}
