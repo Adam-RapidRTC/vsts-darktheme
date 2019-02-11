@@ -2073,7 +2073,8 @@ div.two-panel-overview {
 .history-name-column,
 .ms-DetailsRow-cell,
 .ms-MessageBar-innerText,
-.innerText_a99edd3d {
+.innerText_a99edd3d,
+.vc-pullrequest-new-changes-callout {
     color: #828282;
 }
 
@@ -2105,6 +2106,7 @@ i.ms-Icon {
 	background-color: transparent !important;
 }
 
-.machine-groups-metrics-column {
+.machine-groups-metrics-column,
+.vc-pullrequest-suggestion  {
     color: #828282 !important;
 }
