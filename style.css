@@ -134,6 +134,11 @@
     color: #ff9800 ;
 }
 
+.bowtie-trigger-approval::before {
+    background-color: transparent ;
+    color: #b3b3b3 ;
+}
+
 .branch-updates-tab-root .group-header, .branch-updates-tab-root .ms-List-cell .history-result {
     border-color: rgba(82, 82, 82, 0.31) ;
 }
@@ -160,6 +165,19 @@
     color: #ececec ;
 }
 
+.cd-environment-core-properties-container .dtc-canvas-element-border, div.dtc-overlay-selected .dtc-canvas-element-border, div.dtc-overlay-selected .dtc-canvas-element-border, .bowtie-trigger-approval::before {
+    background-color: #b3b3b3 ;
+    color: #292929 ;
+}
+
+.cd-environment-core-properties-container .dtc-canvas-element-border, div.dtc-overlay-selected .dtc-canvas-element-border, div.dtc-overlay-selected .dtc-canvas-element-border, .cd-artifact-properties-container .dtc-canvas-element-border, .vss-PickListDropdown--title, input:not(.search-text), .is-selected.isSelected_fd76c43f.rootIsSelected_c8730de5, .root_a99edd3d {
+    background-color: #292929;
+}
+
+.choiceFieldIsIcon_230192cb .fieldIsIcon_230192cb:not(.fieldIsDisabled_230192cb).fieldIsChecked_230192cb, .choiceFieldIsIcon_230192cb .fieldIsImage_230192cb:not(.fieldIsDisabled_230192cb).fieldIsChecked_230192cb, .choiceFieldIsImage_230192cb .fieldIsIcon_230192cb:not(.fieldIsDisabled_230192cb).fieldIsChecked_230192cb, .choiceFieldIsImage_230192cb .fieldIsImage_230192cb:not(.fieldIsDisabled_230192cb).fieldIsChecked_230192cb {
+    border-color: white;
+}
+
 .code-editor-host .commented-text {
     background-color: rgba(0, 0, 0, 0.45) ;
 }
@@ -183,6 +201,11 @@
 .combo, .mru-identity-picker {
     background: #2e2e2e;
     border: 1px solid #2e2e2e;
+}
+
+.combo-box-container-parent .combo-box-container .combo-drop-popup ul.items .combo-box-item {
+    background-color: #292929 ;
+    color: white ;
 }
 
 .combo-drop-popup {
@@ -270,6 +293,19 @@
     color: #ececec ;
 }
 
+.dtc-markdown-renderer, .field_230192cb:focus .ms-Label, .field_230192cb:hover .ms-Label, .css-jupphs:hover .ms-Checkbox-text, [data-css-jupphs]:hover .ms-Checkbox-text, .ms-Checkbox-text {
+    color: #828282 ;
+}
+
+.dtc-template-item.is-selected, .dtc-template-item:hover {
+    background-color: #b3b3b3;
+    color: #ffffff;
+}
+
+.dtc-templates-title, .dtc-section-label, .info-name {
+    color: white;
+}
+
 .environment-definition-grid .grid-row-current .environment-definition-tile-content, .environment-definition-grid .environment-definition-tile-content:hover {
     background-color: #292929 ;
 }
@@ -280,6 +316,10 @@
 
 .environment-definition-tile-name-label {
     color: #ececec ;
+}
+
+.environment-schedule-container .schedule-label, .description-container, .name-container, .content-container, .environment-name-label, .history-name-column, .ms-DetailsRow-cell, .ms-MessageBar-innerText, .innerText_a99edd3d, .vc-pullrequest-new-changes-callout {
+    color: #828282;
 }
 
 .field-container.additional-field .field-inner-element {
@@ -493,6 +533,10 @@
     color: #ececec ;
 }
 
+.input-control-checkbox {
+    background-color: transparent ;
+}
+
 .invalid-selection {
     background-color: #424242 ;
     border-color: #424242 ;
@@ -536,6 +580,10 @@
     background-color: #2e2e2e ;
     border-color: #2e2e2e ;
     color: #ececec ;
+}
+
+.machine-groups-metrics-column, .vc-pullrequest-suggestion {
+    color: #828282 ;
 }
 
 .main_44eae792 {
@@ -666,6 +714,14 @@
     background-color: #616161;
 }
 
+.ms-ChoiceField.choiceField_230192cb.ms-ChoiceField--image.choiceFieldIsImage_230192cb {
+    background-color: #292929;
+}
+
+.ms-CommandBarItem-link {
+    border-left: 1px solid #828282 ;
+}
+
 .ms-DetailsRow:hover {
     background-color: #2e2e2e ;
 }
@@ -706,10 +762,27 @@
     background-color: #1e1e1e ;
 }
 
+.ms-List-item[role="listitem"] {
+    color: white;
+}
+
+.ms-Panel-main {
+    background-color: #292929 ;
+}
+
+.ms-TagItem {
+    background-color: #2e2e2e;
+    color: white;
+}
+
 .ms-Tooltip-subText {
     background-color: #212121;
     color: #b3b3b3;
     padding: 7px;
+}
+
+.ms-TooltipHost, .matching-targets {
+    color: #828282;
 }
 
 .mtk1 {
@@ -1341,6 +1414,10 @@
     color: #ececec ;
 }
 
+.vc-preview-content-container .rendered-markdown h3 {
+    color: white;
+}
+
 .vc-pullRequest-list-section .ms-List-cell {
     background-color: #1e1e1e ;
     border-bottom: 1px solid rgba(64, 64, 64, 0.7);
@@ -1860,6 +1937,10 @@ button, button.ui-state-default, button.ui-button {
     color: #ececec ;
 }
 
+button.copy-button {
+    background: transparent ;
+}
+
 button.popup-menu-trigger {
     background-color: transparent ;
 }
@@ -1868,18 +1949,13 @@ button.popup-menu-trigger:focus {
     background-color: #2e2e2e ;
 }
 
-button[disabled]:not(.ms-ContextualMenu-link):not(.ms-Checkbox), 
-button[disabled]:hover:not(.ms-ContextualMenu-link):not(.ms-Checkbox), 
-button[disabled]:focus:not(.ms-ContextualMenu-link):not(.ms-Checkbox) {
+button[disabled]:not(.ms-ContextualMenu-link):not(.ms-Checkbox), button[disabled]:hover:not(.ms-ContextualMenu-link):not(.ms-Checkbox), button[disabled]:focus:not(.ms-ContextualMenu-link):not(.ms-Checkbox) {
     background-color: gray ;
     border-color: gray ;
     color: "disabled text" ;
 }
 
-button[disabled]:not(.ms-ContextualMenu-link):not(.ms-Checkbox), 
-button[disabled]:hover:not(.ms-ContextualMenu-link):not(.ms-Checkbox), 
-button[disabled]:focus:not(.ms-ContextualMenu-link):not(.ms-Checkbox), 
-.copy-button {
+button[disabled]:not(.ms-ContextualMenu-link):not(.ms-Checkbox), button[disabled]:hover:not(.ms-ContextualMenu-link):not(.ms-Checkbox), button[disabled]:focus:not(.ms-ContextualMenu-link):not(.ms-Checkbox), .copy-button {
     background-color: #808080 ;
 }
 
@@ -1891,8 +1967,7 @@ div.badge-text-style {
     color: #cfc9cf;
 }
 
-div.cd-environment-canvas-title,
-.cd-artifacts-canvas-title {
+div.cd-environment-canvas-title, .cd-artifacts-canvas-title {
     color: #c4c0c4;
 }
 
@@ -1909,8 +1984,8 @@ div.row-group {
 }
 
 div.two-panel-overview {
-    background-color: #525252;
-    color: #d6d6d6;
+    background-color: #292929 ;
+    color: white ;
 }
 
 div.vc-pullrequest-leftpane-section-subhead.with-margin {
@@ -1923,6 +1998,14 @@ div.vc-pullrequest-leftpane-section-title {
 
 div.vc-pullrequest-merge-policy-status-item {
     color: #ebebeb;
+}
+
+div[role="menubar"] {
+    background-color: #1e1e1e;
+}
+
+i.ms-Icon {
+    color: white;
 }
 
 li.selected a {
@@ -1948,12 +2031,20 @@ span.bowtie-icon.bowtie-tfvc-branch {
     color: #e3e3e3;
 }
 
+span.decorator {
+    color: grey;
+}
+
 span.stat-text {
     color: #dedede;
 }
 
 span.text {
     color: #fafafa;
+}
+
+span[role="heading"] {
+    color: grey;
 }
 
 ul.menu-popup {
@@ -1989,124 +2080,14 @@ vss-PickList--multiSelectTextContainer {
     color: #ffffff;
 }
 
-.vc-preview-content-container .rendered-markdown h3 {
-    color: white;
-}
-
-.ms-Panel-main {
-	background-color: #292929 !important;
-}
-
-.dtc-templates-title, 
-.dtc-section-label,
-.info-name {
-    color: white;
-}
-
-.dtc-template-item.is-selected,
-.dtc-template-item:hover {
-	background-color: #b3b3b3;
-    color: #ffffff;
-}
-
-.ms-List-item[role="listitem"]{
-	color: white;
-}
-
-.cd-environment-core-properties-container .dtc-canvas-element-border,
-div.dtc-overlay-selected .dtc-canvas-element-border,
-div.dtc-overlay-selected .dtc-canvas-element-border,
-.bowtie-trigger-approval::before {
-	background-color: #b3b3b3 !important;
-    color: #292929 !important;
-}
-
-.combo-box-container-parent .combo-box-container .combo-drop-popup ul.items .combo-box-item {
-	background-color: #292929 !important;
-    color: white !important;
-}
-
-.input-control-checkbox {
-    background-color: transparent !important;
-}
-
-div.two-panel-overview {
-    background-color: #292929 !important;
-    color: white !important;
-}
-
-.ms-TagItem {
-    background-color: #2e2e2e;
-    color: white;
-}
-
-.ms-TooltipHost,
-.matching-targets {
-    color: #828282;
-}
-
-.dtc-markdown-renderer,
-.field_230192cb:focus .ms-Label, 
-.field_230192cb:hover .ms-Label,
-.css-jupphs:hover .ms-Checkbox-text, 
-[data-css-jupphs]:hover .ms-Checkbox-text,
-.ms-Checkbox-text {
-    color: #828282 !important;
-}
-
-.ms-ChoiceField.choiceField_230192cb.ms-ChoiceField--image.choiceFieldIsImage_230192cb {
-    background-color: #292929;
-}
-
-.choiceFieldIsIcon_230192cb .fieldIsIcon_230192cb:not(.fieldIsDisabled_230192cb).fieldIsChecked_230192cb, 
-.choiceFieldIsIcon_230192cb .fieldIsImage_230192cb:not(.fieldIsDisabled_230192cb).fieldIsChecked_230192cb, 
-.choiceFieldIsImage_230192cb .fieldIsIcon_230192cb:not(.fieldIsDisabled_230192cb).fieldIsChecked_230192cb, 
-.choiceFieldIsImage_230192cb .fieldIsImage_230192cb:not(.fieldIsDisabled_230192cb).fieldIsChecked_230192cb {
-    border-color: white;
-}
-
-.environment-schedule-container .schedule-label,
-.description-container,
-.name-container,
-.content-container,
-.environment-name-label,
-.history-name-column,
-.ms-DetailsRow-cell,
-.ms-MessageBar-innerText,
-.innerText_a99edd3d,
-.vc-pullrequest-new-changes-callout {
-    color: #828282;
-}
-
-.cd-environment-core-properties-container .dtc-canvas-element-border, 
-div.dtc-overlay-selected .dtc-canvas-element-border, 
-div.dtc-overlay-selected .dtc-canvas-element-border, 
-.cd-artifact-properties-container .dtc-canvas-element-border,
-.vss-PickListDropdown--title,
-input:not(.search-text),
-.is-selected.isSelected_fd76c43f.rootIsSelected_c8730de5,
-.root_a99edd3d {
-	background-color: #292929;
-}
-
-div[role="menubar"] {
-    background-color: #1e1e1e;
-}
-
-.ms-CommandBarItem-link {
-    border-left: 1px solid #828282 !important;
-}
-
-i.ms-Icon {
-    color: white;
-}
-
-.bowtie-trigger-approval::before {
-	color: #b3b3b3 !important;
-	background-color: transparent !important;
-}
-
-.machine-groups-metrics-column,
-.vc-pullrequest-suggestion  {
-    color: #828282 !important;
+.summary-item,
+.summary-item-detail,
+.header,
+.build-requested-for-column,
+.success-rate,
+.total-builds,
+span.text,
+span.stat-text
+{
+    color: #dedede;
 }
